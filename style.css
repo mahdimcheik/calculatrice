@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.selected{
+    background-color: red;
+}
+.calculator{
+    width: 400px;
+    height: 600px;
+    margin-left: 50px;
+}
+.calculator > input{
+    width: 90%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+legend{
+    display: inline-block;
+}
+.touches{
+    width: 95%;
+    height: 400px;
+    background-color: aqua;
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:middle;
+}
+.touche{
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+input{
+    padding: 10px;
+}
